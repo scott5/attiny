@@ -67,6 +67,18 @@ ATtinyX5.menu.clock.external20.build.f_cpu=20000000L
 
 ################################################################################
 
+attiny45-4.name=ATtiny45 (external 4 MHz clock)
+attiny45-4.bootloader.low_fuses=0xfe
+attiny45-4.bootloader.high_fuses=0xdf
+attiny45-4.bootloader.extended_fuses=0xff
+attiny45-4.upload.maximum_size=4096
+attiny45-4.build.mcu=attiny45
+attiny45-4.build.f_cpu=4000000L
+attiny45-4.build.core=arduino:arduino
+attiny45-4.build.variant=tiny8
+
+################################################################################
+
 ATtinyX4.name=ATtiny24/44/84
 ATtinyX4.bootloader.tool=arduino:avrdude
 ATtinyX4.bootloader.unlock_bits=0xff
